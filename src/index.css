@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@layer components {
+  .text-light {
+    color: #c5c5c5;
+  }
+  .gradient-border {
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-clip: padding-box;
+    transition: all 0.5s ease-in-out;
+    color: linear-gradient(45deg, #ff7e5f, violet);
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    z-index: -1;
+    border-radius: inherit;
+    background: ;
+  }
+  .gradient-border::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(45deg, #ff7e5f, violet);
+  }
+  .gradient-border:hover {
+    color: white;
+    background: linear-gradient(45deg, #ff7e5f, violet);
+  }
+  /* styles.css */
+  .metric {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #ff7e5f, violet);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  /* Add to your CSS file if needed */
+  .navbar-transition {
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(45deg, #ff7e5f, violet);
+  }
+}
