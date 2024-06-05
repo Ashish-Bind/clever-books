@@ -1,19 +1,19 @@
 const cardDetails = [
   {
-    heading: 'What to order',
-    desc: 'Get accurate demand and days to stock out. Automate purchase planning so you can always have what you need for your next sales cycle.',
+    heading: 'Leverage the power of AI',
+    desc: 'CleverBooks is an AI-powered career guidance platform designed to help individuals navigate their career paths with personalized advice, skill development.',
   },
   {
-    heading: 'When to order',
-    desc: "Have up-to-date inventory, storage, sales velocity, and demand. Get timely order suggestions so you're never left guessing.",
+    heading: 'Progress in career',
+    desc: 'We use advanced AI algorithms to analyze your skills, interests, and career goals. Based on this analysis, we generate a tailored career roadmap.',
   },
   {
-    heading: 'How much to stock',
-    desc: 'Get inventory requirements for every node, for every SKU. So you avoid out-of-stock situations, even during demand spikes.',
+    heading: 'Unlimited Resource',
+    desc: 'CleverBooks offers comprehensive skill assessments that evaluate your strengths and identify areas for improvement.',
   },
   {
-    heading: 'Where to place',
-    desc: "Our tool suggests how to move stock within your supply chain. So you'll always have products available across cities.",
+    heading: 'Interview & Job Preps',
+    desc: 'Our AI-driven job matching service analyzes your profile, including your skills, experience, and career goals, to connect you with job opportunities that are a perfect fit.',
   },
 ]
 

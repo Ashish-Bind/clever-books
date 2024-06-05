@@ -17,7 +17,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="flex items-center justify-between p-5 bg-black">
+    <nav className="fixed top-0 left-0 w-full flex items-center justify-between p-5 bg-black z-50">
       <div className="font-bold text-white text-2xl">CleverBooks</div>
       <div className="md:hidden">
         <button onClick={toggleMenu} className="text-white focus:outline-none">
@@ -88,6 +88,11 @@ const Navbar = () => {
           ))}
           <li>
             <button className="gradient-text">Login</button>
+          </li>
+          <li>
+            <button className="px-5 py-2 gradient-bg rounded-full hover:text-black">
+              Talk to us
+            </button>
           </li>
         </ul>
       </div>

@@ -63,7 +63,7 @@ const Testimonials = () => {
   return (
     <section className="w-full flex justify-center items-center flex-col my-8 md:my-24">
       <div className="text-2xl md:text-3xl font-extrabold mb-8 md:mb-14">
-        Testimonials
+        Hear out from some of the customers
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 p-4 mx-auto w-full md:w-3/4 gap-4">
         <section className="max-w-6xl mx-auto">
